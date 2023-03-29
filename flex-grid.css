@@ -1,0 +1,297 @@
+.container{
+display: flex;
+background: green;
+border: 2px solid palevioletred;
+margin: 0 auto;
+width: 400px;
+height: 400px;
+align-items: center;
+justify-content: center;
+
+}
+
+.item0{
+
+    width: 70px;
+    height: 80px;
+    background: greenyellow;
+    border: 3px solid brown;
+    align-self: center;
+    text-align: center;
+}
+
+.bar{
+    display: flex;
+    height: 100px;
+    background: orange;
+    justify-content: space-between;
+}
+
+.item1{
+    display: flex;
+    width: 130px;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    align-content: center;
+    justify-content: space-between;
+}
+.item1 >div{
+    background:white;
+    height: 40px;
+    width: 70px;
+    margin: 5px;
+    padding-top: 20px;
+}
+.item2{
+    background: lightskyblue;
+    color: blue;
+    width: 150px;
+    height: 80px;
+    align-self: center;
+    text-align: center;
+    line-height: 80px;
+    font-size: large;
+    font-weight: bold;
+
+}
+.item3{
+    display: flex;
+    width: 130px;
+    flex-direction: row;
+    align-items: center;
+    margin-RIGHT: 10px;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.item3 >div{
+    background:white;
+    height: 40px;
+    width: 70px;
+    margin: 5px;
+    padding-top: 20px;
+
+
+}
+.flexbox{
+display: flex;
+margin: 0 auto;
+border: 1px solid;
+width: 612px;
+height: 300px;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: pink;
+    width: 610px;
+    text-align: center;
+    margin: 1px;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: orange;
+    width: 100px;
+    margin: 1px;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: greenyellow;
+    width: 100px;
+    margin: 1px;
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    width: 100px;
+    margin: 1px;
+}
+.box5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+    width: 100px;
+    margin: 1px;
+}
+.box6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(243, 28, 153);
+    width: 100px;
+    margin: 1px;
+}
+.box7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkblue;
+    width: 100px;
+    margin: 1px;
+}
+.box8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    width: 610px;
+    margin: 1px;
+}
+.web-header{
+    display: flex;
+    justify-content:space-around;
+    gap: 300px;
+    height: 40px;
+    align-items: center;
+    border-top: 1px solid;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    width: 330px;
+    height: 40px;
+    align-items: center;
+}
+.not{
+    display: flex;
+    height: 40px;
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mlogo{
+color: purple;
+font-weight: bold;
+font-style: italic;
+font-size: large;
+}
+
+.link{
+    color: purple;
+}
+.message{ background: purple; color: white; width: 120px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px;
+}
+.pic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: purple;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.google{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    border: 1px solid;
+}
+.profile-bar{
+    align-self: flex-end;;
+    justify-content: flex-end;
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 5px;
+    align-items: center;
+    
+}
+.apps >img{
+    width: 23px;
+    height: 23px;
+}
+.profile >img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.language{
+    color: gray;
+}
+.search-buttons >button{
+    color: white;
+    background-color: black;
+    border: 0;
+    margin-left:20px;
+    margin-right:20px;
+}
+.google-logo>img{
+    filter:brightness(0%) invert(1) ;
+    -webkit-filter:brightness(0%) invert(1) ;
+}
+.search-bar>input{
+    width: 400px;
+    border: 1px solid gray;
+    background-color: black;
+    border-radius: 15px;
+    margin-right: -25px;
+    margin-left: -25px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.search-bar{
+    display: flex;
+}
+
+.web{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+.list{
+display: flex;
+flex-direction: column;
+background-color: blue;
+width: 350px;
+height: 600px;
+color: white;
+}
+.list > div>img{
+    margin-bottom: -5px;
+}
+.parag{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: space-around;
+
+}
+.content{
+    display: flex;
+    
+
+}
+.parag>div{
+    margin: 10px;
+    width: 350px;
+    height: 300px;
+
+    border: 1px solid lightslategray;
+    font-size: 24px;
+}
